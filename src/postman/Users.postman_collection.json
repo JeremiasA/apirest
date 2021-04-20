@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "d3ed998f-c830-4525-ab2f-769fb59980e4",
+		"name": "Users",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New User",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\" : \"jeremingo\",\r\n    \"email\" : \"jeremingo@gmail.com\",\r\n    \"password\" : \"1234\",\r\n    \"roles\" :\"user, moderator\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update User",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\" : \"jeremicho\",\r\n    \"email\" : \"jeremich@gmail.com\",\r\n    \"password\" : \"123456\",\r\n    \"roles\" : [\"admin\"]\r\n    \r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/users/607cc912b77d8c053c55572d",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"607cc912b77d8c053c55572d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete User",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\" : \"jeremicho\",\r\n    \"email\" : \"jeremich@gmail.com\",\r\n    \"password\" : \"123456\",\r\n    \"roles\" : [\"admin\"]\r\n    \r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/users/607cc912b77d8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"607cc912b77d8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

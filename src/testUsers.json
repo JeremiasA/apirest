@@ -1,0 +1,27 @@
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTg4MTc5NzcsImRhdGEiOnsiaWQiOiI2MDdkMjVhOTU1MWZjOTIyYzg1ZTdkMmQifSwiaWF0IjoxNjE4ODE0Mzc3fQ.ugzWPh0nLROC3VmgZ4mHW3HcUPQDcReFvKe6-Dc4a7w",
+    "user": {
+        "roles": [
+            "607cc4869f87e82500105f38"
+        ],
+        "_id": "607d25a9551fc922c85e7d2d",
+        "username": "juancarlos",
+        "email": "juancarlos@gmail.com",
+        "password": "$2b$10$WRart.DPR/LrYYTa.FXo0uJmdIwesd5fwrnaOCw3H12x6/IrjCFb6",
+        "createdAt": "2021-04-19T06:39:37.376Z",
+        "updatedAt": "2021-04-19T06:39:37.376Z"
+    },
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTg4MjExNDUsImRhdGEiOnsiaWQiOiI2MDdkMzIwOWZiMWFlZTBiZmNkYmJjY2EifSwiaWF0IjoxNjE4ODE3NTQ1fQ.6JotIQDA0IGcb3QEQhMh0c3I7wdh1WVSWFpGxnNQUzM",
+    "user": {
+        "roles": [
+            "607cc4869f87e82500105f3a"
+        ],
+        "_id": "607d3209fb1aee0bfcdbbcca",
+        "username": "elmoderator",
+        "email": "mdoerator@gmail.com",
+        "password": "$2b$10$icd6Hhe/UwAxR8VLUQHO9.f7yamOi5X063mQmQTROMA9p0an0S8NS",
+        "createdAt": "2021-04-19T07:32:25.701Z",
+        "updatedAt": "2021-04-19T07:32:25.701Z"
+    }
